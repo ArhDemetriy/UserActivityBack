@@ -1,4 +1,5 @@
 import express from 'express'
+import { firebaseApp } from './firebaseApp';
 
 const app = express();
 const port = 5000;
